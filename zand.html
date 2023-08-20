@@ -7,21 +7,23 @@
 </head>
 <body>
   <div id="output"></div>
-  <script>document.addEventListener("DOMContentLoaded", async function() {
+  <script>
+   document.addEventListener("DOMContentLoaded", async function() {
   const outputElement = document.getElementById("output");
 
   try {
     const response = await fetch("https://gist.githubusercontent.com/lkearers/cb2e42a0f113b6ff2b1f2db185ca8c7f/raw/2e49c43a141c8f66c20db868562a6c660b47c076/gistfile1.txt");
     if (!response.ok) {
-      throw new Error("Failed to fetch remote HTML");
+      throw new Error("Failed to fetch remote content");
     }
-    const remoteHTML = await response.text();
-    outputElement.innerHTML = remoteHTML;
+    const remoteContent = await response.text();
+    outputElement.innerHTML = remoteContent;
   } catch (error) {
     console.error(error);
     outputElement.textContent = "Error loading remote content.";
   }
 });
+
 </script>
 </body>
 </html>
