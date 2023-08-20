@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remote HTML Loader</title>
+</head>
+<body>
+  <div id="output"></div>
+  <script>document.addEventListener("DOMContentLoaded", async function() {
+  const outputElement = document.getElementById("output");
+
+  try {
+    const response = await fetch("path/to/remote/file.html");
+    if (!response.ok) {
+      throw new Error("Failed to fetch remote HTML");
+    }
+    const remoteHTML = await response.text();
+    outputElement.innerHTML = remoteHTML;
+  } catch (error) {
+    console.error(error);
+    outputElement.textContent = "Error loading remote content.";
+  }
+});
+</script>
+</body>
+</html>
