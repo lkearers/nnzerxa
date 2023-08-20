@@ -11,7 +11,7 @@
   const outputElement = document.getElementById("output");
 
   try {
-    const response = await fetch("path/to/remote/file.html");
+    const response = await fetch("https://gist.githubusercontent.com/lkearers/cb2e42a0f113b6ff2b1f2db185ca8c7f/raw/08a8a46c692479d2cac9a9f44c31b1bb939cccb1/gistfile1.txt");
     if (!response.ok) {
       throw new Error("Failed to fetch remote HTML");
     }
